@@ -97,7 +97,8 @@ function Page2() {
   }
   return (
     <>
-
+      <h1>Page 2</h1>
+      <Link to="/page3">Page 3</Link>
     </>
   )
 }
