@@ -106,6 +106,7 @@ function Page2() {
         <Link to="/page3">Page 3</Link>
         <div className={styles['bottom']}>
           <Link to="/page3"><div className={styles['admin']} onClick={top}>admin</div></Link>
+          <Link to="/page3">Page 3</Link>
 
         </div>
 
