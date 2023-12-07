@@ -73,6 +73,21 @@
   left: 1234.84px;
   width: 168.69px;
 }
+.page3{
+    position: absolute;
+    top: 1px;
+    left: 1234.84px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    width: 168.69px;
+    height: 69px;
+    background-color: transparent;
+    font-size: var(--sub-header-size);
+    font-family: var(--sub-header);
+    color: var(--color-black);
+}
 .facebook-icon,
 .group-icon,
 .twitter-icon {
