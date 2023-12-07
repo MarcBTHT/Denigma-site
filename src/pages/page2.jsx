@@ -97,8 +97,22 @@ function Page2() {
   }
   return (
     <>
-      <h1>Page 2</h1>
-      <Link to="/page3">Page 3</Link>
+      <div className={styles['slide-169-3']}>
+        <div className={styles['slide-169-3-child']} />
+        <div className={styles['slide-169-3-item']} />
+        <div className={styles['slide-169-3-inner']} />
+        <b className={styles['lotterie-001']}>Sweepstake #001</b>
+        <div className={styles['bottom']}>
+          <Link to="/"><div className={styles['denigma']} onClick={top}>denigma</div></Link>
+          <Link to="/page1"><div className={styles['my-account']} onClick={top}>My account</div></Link>
+          <Link to="/page3"><div className={styles['admin']} onClick={top}>admin</div></Link>
+
+          <div className={styles['play-lotterie']}>Sweepstakes</div>
+          <img className={styles['facebook-icon']} alt="" src={Facebook} />
+          <img className={styles['twitter-icon']} alt="" src={twitter} />
+          <img className={styles['group-icon']} alt="" src={LinkedIn} />
+        </div>
+      </div>
     </>
   )
 }
