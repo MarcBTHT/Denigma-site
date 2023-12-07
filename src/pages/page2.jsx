@@ -97,14 +97,7 @@ function Page2() {
   }
   return (
     <>
-      <div className={styles['slide-169-3']}>
-        <div className={styles['slide-169-3-child']} />
-        <div className={styles['slide-169-3-item']} />
-        <div className={styles['slide-169-3-inner']} />
 
-        <Link to="/page3"><div className={styles['admin']} onClick={top}>admin</div></Link>
-        
-      </div>
     </>
   )
 }
