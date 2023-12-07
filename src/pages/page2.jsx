@@ -101,7 +101,7 @@ function Page2() {
         <div className={styles['slide-169-3-child']} />
         <div className={styles['slide-169-3-item']} />
         <div className={styles['slide-169-3-inner']} />
-        <b className={styles['lotterie-001']}>Sweepstake #001</b>
+
         <Link to="/page3"><div className={styles['admin']} onClick={top}>admin</div></Link>
         
       </div>
