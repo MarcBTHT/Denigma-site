@@ -113,7 +113,7 @@ function Page2() {
                 <div className={styles['bottom']}>
                     <Link to="/"><div className={styles['denigma']} onClick={top}>denigma</div></Link>
                     <Link to="/page1"><div className={styles['my-account']} onClick={top}>My account</div></Link>
-                    <Link to="/pageAdmin"><div className={styles['admin']} onClick={top}>admin</div></Link>
+                    <Link to="/page3"><div className={styles['admin']} onClick={top}>admin</div></Link>
 
                     <div className={styles['play-lotterie']}>Sweepstakes</div>
                     <img className={styles['facebook-icon']} alt="" src={Facebook} />
