@@ -1,0 +1,873 @@
+.slide-169-2-child,
+.slide-169-2-item {
+  position: absolute;
+  top: -347px;
+  left: calc(50% - 1147px);
+  border-radius: 50%;
+  background-color: var(--color-khaki);
+  filter: blur(398.3px);
+  width: 1026px;
+  height: 963px;
+}
+.slide-169-2-item {
+  top: 1363px;
+  left: calc(50% - 1214px);
+}
+.slide-169-2-inner {
+  position: absolute;
+  top: 390px;
+  left: calc(50% + 278px);
+  border-radius: 50%;
+  background-color: #ffaf97;
+  filter: blur(497.2px);
+  width: 1084px;
+  height: 1027px;
+}
+.dashboard {
+  position: absolute;
+  top: 262px;
+  left: calc(50% - 611px);
+  font-size: var(--h1-size);
+  line-height: 110%;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 670px;
+}
+.denignma,
+.my-account {
+  position: absolute;
+  top: 13px;
+  line-height: 27.5px;
+  text-transform: uppercase;
+}
+.denignma {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  left: calc(50% - 601.5px);
+  font-size: var(--sub-header-size);
+  font-weight: 700;
+  font-family: var(--sub-header);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.my-account {
+  left: calc(50% + 246.5px);
+}
+.button-child {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 92px);
+  border-radius: var(--br-6xl);
+  width: 183.8px;
+  height: 53.61px;
+}
+.connect {
+  top: 0;
+  left: calc(50% - 91.8px);
+  font-size: var(--sub-header-size);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  display: flex;
+  font-family: var(--sub-header);
+  color: var(--color-white);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 183.8px;
+}
+.button,
+.connect,
+.top {
+  position: absolute;
+  height: 53.61px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  left: calc(50% + 417.5px);
+  width: 184px;
+}
+.top {
+  top: 29px;
+  left: calc(50% - 609px);
+  width: 1203px;
+}
+.denigma,
+.my-account1,
+.play-lotterie {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 115.79px;
+  height: 69px;
+  background-color: transparent;
+  font-size: var(--sub-header-size);
+  font-family: var(--sub-header);
+  color: var(--color-black);
+}
+.my-account1,
+.play-lotterie {
+  left: 317px;
+  width: 159px;
+}
+.play-lotterie {
+  top: 1px;
+  left: 634.84px;
+  width: 168.69px;
+}
+.facebook-icon,
+.group-icon,
+.twitter-icon {
+  position: absolute;
+  bottom: 16px;
+  left: 952.26px;
+  width: 35.93px;
+  height: 36px;
+  overflow: hidden;
+}
+.group-icon,
+.twitter-icon {
+  left: 1004.16px;
+}
+.group-icon {
+  height: 51.43%;
+  width: 3.29%;
+  top: 25.71%;
+  right: 0;
+  bottom: 22.86%;
+  left: 96.71%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.bottom {
+  position: absolute;
+  top: 2792px;
+  left: 351px;
+  width: 1092px;
+  height: 70px;
+  font-size: var(--font-size-3xl);
+}
+.lotterie-child {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 185.5px);
+  border-radius: var(--br-lg);
+  background-color: var(--color-deepskyblue);
+  width: 371px;
+  height: 490px;
+}
+.nft-1,
+.state-0 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 0px);
+  letter-spacing: 0.1em;
+  line-height: 27.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 185.5px;
+  height: 75px;
+}
+.nft-1 {
+  left: calc(50% - 183.17px);
+  width: 183.17px;
+}
+.email-grou-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-18xl);
+  background-color: var(--color-mediumslateblue);
+  width: 314.11px;
+  height: 34px;
+}
+.select-price {
+  z-index:4;
+  border: 0;
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  position: absolute;
+  height: 83.78%;
+  width: 43.97%;
+  top: 8.11%;
+  left: 6.23%;
+  line-height: 31px;
+  color: var(--color-white);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  mix-blend-mode: linear-dodge;
+}
+.email-grou {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 314.11px;
+  height: 34px;
+}
+.button-item {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-63xl);
+  max-width: 100%;
+  overflow: hidden;
+  height: 35px;
+  z-index: 0;
+}
+.set-price {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 14px);
+  left: calc(50% - 55.67px);
+  font-size: var(--sub-header-size);
+  letter-spacing: 0.1em;
+  line-height: 27.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--sub-header);
+  color: var(--color-white);
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  z-index: 1;
+}
+.button1 {
+  z-index:4;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 17px);
+  left: calc(50% + 9.17px);
+  width: 161.33px;
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.answer {
+  top: 358px;
+  left: 16px;
+  width: 341px;
+  height: 34px;
+}
+.answer,
+.button2,
+.sell {
+  position: absolute;
+}
+.sell {
+  margin: 0 !important;
+  top: calc(50% - 14px);
+  left: calc(50% - 25.67px);
+  font-size: var(--sub-header-size);
+  letter-spacing: 0.1em;
+  line-height: 27.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--sub-header);
+  color: var(--color-white);
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  z-index:remove-sell 1;
+}
+.button2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: calc(50% - 44px);
+  left: calc(50% + 8.5px);
+  width: 161.33px;
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.remove-sell {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 14px);
+  left: calc(50% - 59.67px);
+  font-size: var(--font-size-base);
+  letter-spacing: 0.1em;
+  line-height: 27.5px;
+  text-transform: uppercase;
+  font-family: var(--sub-header);
+  color: var(--color-white);
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  z-index: 1;
+}
+.button3 {
+  z-index:4;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% + 10px);
+  left: calc(50% + 9.83px);
+  width: 161.33px;
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.answer1 {
+  position: absolute;
+  top: 350px;
+  left: 16px;
+  width: 342.33px;
+  height: 88px;
+}
+.lotterie {
+  position: absolute;
+  top: 81px;
+  left: calc(50% - 345.5px);
+  width: 371px;
+  height: 516.6px;
+}
+.lotterie-item,
+.nft-2,
+.state-1 {
+  position: absolute;
+  left: calc(50% - 160px);
+  width: 371px;
+}
+.lotterie-item {
+  top: 0;
+  border-radius: var(--br-lg);
+  background-color: var(--color-deepskyblue);
+  height: 490px;
+}
+.nft-2,
+.state-1 {
+  top: 366px;
+  letter-spacing: 0.1em;
+  line-height: 27.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 67px;
+}
+.nft-2 {
+  top: 0;
+  left: calc(50% - 158px);
+  height: 63px;
+}
+.unsplashpvoepplw818-icon {
+  position: absolute;
+  top: 65px;
+  left: 35px;
+  border-radius: var(--br-xs);
+  width: 247.33px;
+  height: 301.33px;
+  object-fit: cover;
+}
+.lotterie1 {
+  position: absolute;
+  top: 81px;
+  left: calc(50% + 78.5px);
+  width: 320px;
+  height: 433px;
+}
+.button-child1 {
+  top: 0;
+  left: calc(50% - 156px);
+  border-radius: var(--br-6xl);
+  width: 310.78px;
+}
+.answer-enigmas,
+.button-child1,
+.button4 {
+  position: absolute;
+  height: 56px;
+}
+.answer-enigmas {
+  top: 0;
+  left: calc(50% - 154.78px);
+  font-size: var(--sub-header-size);
+  line-height: 27.5px;
+  text-transform: uppercase;
+  display: flex;
+  font-family: var(--sub-header);
+  color: var(--color-white);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 310.78px;
+}
+.button4 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 684px;
+  left: calc(50% - 109.5px);
+  width: 312px;
+  
+}
+.raffle-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--h2-size);
+  line-height: 110%;
+  text-transform: capitalize;
+  display: inline-block;
+  text-align: left;
+  width: 370px;
+  height: 55px;
+}
+.raffle {
+  position: absolute;
+  top: 498px;
+  left: calc(50% - 556px);
+  width: 797px;
+  height: 740px;
+  text-align: center;
+}
+.lotterie-inner {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 159px);
+  border-radius: var(--br-lg);
+  background-color: var(--color-lightcoral);
+  width: 371px;
+  height: 490px;
+}
+.nft-11,
+.state-01 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 1px);
+  letter-spacing: 0.1em;
+  line-height: 27.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 78px;
+}
+.nft-11 {
+  left: calc(50% - 157px);
+  width: 157px;
+  height: 73px;
+}
+.unsplashpvoepplw818-icon1 {
+  position: absolute;
+  top: 76px;
+  left: 35px;
+  border-radius: var(--br-xs);
+  width: 247px;
+  height: 277px;
+  object-fit: cover;
+}
+.lotterie2,
+.rectangle-div {
+  position: absolute;
+  top: 81px;
+  left: calc(50% - 345.5px);
+  width: 371px;
+  height: 516.61px;
+}
+.rectangle-div {
+  top: 0;
+  left: calc(50% - 160px);
+  border-radius: var(--br-lg);
+  background-color: var(--color-lightcoral);
+  height: 490px;
+}
+.button5,
+.lotterie3 {
+  position: absolute;
+  top: 81px;
+  left: calc(50% + 115px);
+  width: 320px;
+  height: 433px;
+}
+.button5 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 636px;
+  left: calc(50% - 85px);
+  width: 312px;
+  height: 56px;
+}
+.raffle-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--h2-size);
+  line-height: 110%;
+  text-transform: capitalize;
+  display: inline-block;
+  text-align: left;
+  width: 411px;
+  height: 55px;
+}
+.raffle1 {
+  position: absolute;
+  top: 1363px;
+  left: calc(50% - 580px);
+  width: 797px;
+  height: 740px;
+  text-align: center;
+}
+.buy-tokens {
+  position: absolute;
+  top: 2131px;
+  left: calc(50% - 556px);
+  font-size: var(--h2-size);
+  line-height: 110%;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 318px;
+  height: 55px;
+}
+.email-grou-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-18xl);
+  background-color: rgb(195, 223, 242);
+  width: 125px;
+  height: 34px;
+}
+.tokenid {
+    border: 0;
+    font-family: var(--font-roboto);
+    font-size: var(--font-size-base);
+    background: transparent;
+    position: absolute;
+    height: 82.35%;
+    width: 92%;
+    top: 8.82%;
+    left: 8%;
+    line-height: 31px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    display: inline-block;
+    align-items: center;
+    mix-blend-mode: linear-dodge;
+}
+
+.email-grou2,
+.email-grou3 {
+  position: absolute;
+  top: 135px;
+  left: 3px;
+  width: 125px;
+  height: 34px;
+}
+.email-grou3 {
+  left: 163px;
+}
+.email-grou4 {
+  top: 0;
+  left: 195px;
+  width: 125px;
+  height: 34px;
+}
+.button6,
+.buy,
+.email-grou4 {
+  position: absolute;
+}
+.buy {
+  margin: 0 !important;
+  top: calc(50% - 14px);
+  left: calc(50% - 21.67px);
+  font-size: var(--sub-header-size);
+  letter-spacing: 0.1em;
+  line-height: 27.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--sub-header);
+  color: var(--color-white);
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  z-index: 1;
+}
+.button6 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: calc(50% + 50.5px);
+  left: calc(50% + 80.83px);
+  width: 161.33px;
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.fetch-price {
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 14px);
+  left: calc(50% - 56.67px);
+  font-size: var(--font-size-base);
+  letter-spacing: 0.1em;
+  line-height: 27.5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--sub-header);
+  color: var(--color-white);
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  z-index: 1;
+}
+.button7 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 84.5px);
+  left: calc(50% - 242.17px);
+  width: 161.33px;
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.answer2 {
+  position: absolute;
+  top: 2269px;
+  left: 404px;
+  width: 484.33px;
+  height: 169px;
+}
+.cryptocurrency-1-icon {
+  position: absolute;
+  top: 2046px;
+  left: 889px;
+  width: 714px;
+  height: 714px;
+}
+.slide-169-2 {
+  position: relative;
+  background-color: #fffbf6;
+  width: 100%;
+  height: 2862px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--sub-header-size);
+  color: var(--color-black);
+  font-family: var(--sub-header);
+}
+.buttonPerso2 {
+  z-index: 10; /* Higher index to ensure it's on top of other elements */
+  position: absolute; /* Absolute position */
+  top: 10%; /* Adjust to place the button at the desired location from the top */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Centers the button horizontally */
+  padding: 10px 20px; /* Add some padding inside the button */
+  border: 2px solid #007bff; /* Blue border to match the button fill */
+  background-color: #007bff; /* A pleasant blue color for the button */
+  color: white; /* Text color */
+  font-weight: bold; /* Make the text bold */
+  font-size: 1rem; /* Set the font-size */
+  border-radius: 20px; /* Rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  transition: all 0.3s ease; /* Transition for smooth hover effect */
+}
+
+.buttonPerso2:hover {
+  background-color: #0056b3; /* A darker shade of blue for the hover state */
+  border-color: #0056b3; /* Border color changes on hover to match */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Slightly larger shadow on hover */
+}
+
+.token-details {
+  z-index: 2; /* Ensure it's above the background image */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center children on the main axis */
+  align-items: center; /* Center children on the cross axis */
+  height: 100%; /* Take the full height of the parent */
+  position: absolute; /* Position it over the parent */
+  top: 30%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #fff;
+  /* More styles as needed */
+}
+.tokenImage {
+  max-width: 100%; /* Ensures the image is responsive and fits its container */
+  max-height: 300px; /* You can set this to the desired maximum height */
+  display: block; /* Removes the default inline behavior, helping with alignment */
+  margin: 0 auto; /* Centers the image in its container */
+  z-index: 1; /* Ensures the image is above the background but below the overlay text */
+  position: relative; /* Needed for z-index to take effect */
+  border-radius: 10px; /* Optional: Rounds the corners of the image */
+  top: 23.5%;
+}
+
+.price-label {
+  display: block;
+  margin-top: 10%; /* Adjust the value as needed to move the price further down */
+}
+
+.buttonPerso3 {
+  z-index: 10; /* Higher index to ensure it's on top of other elements */
+  position: absolute;
+  top: 12%; /* Center vertically */
+  left:37%; /* Center horizontally */
+  
+  padding: 10px 20px;
+  border: 2px solid #007bff;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.buttonPerso3:hover {
+  background-color: #0056b3; /* A darker shade of blue for the hover state */
+  border-color: #0056b3; /* Border color changes on hover to match */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Slightly larger shadow on hover */
+}
+.token-details2 {
+  z-index: 3; /* Ensure it's above the background image */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center children on the main axis */
+  align-items: center; /* Center children on the cross axis */
+  height: 100%; /* Take the full height of the parent */
+  position: absolute; /* Position it over the parent */
+  top: 36%;
+  right: 75px;
+  bottom: 0;
+  color: #fff;
+  /* More styles as needed */
+}
+.tokenImage2 {
+  max-width: 116%; /* Ensures the image is responsive and fits its container */
+  max-height: 400px; /* You can set this to the desired maximum height */
+  display: block; /* Removes the default inline behavior, helping with alignment */
+  margin: 0 auto; /* Centers the image in its container */
+  z-index: 1; /* Ensures the image is above the background but below the overlay text */
+  position: relative; /* Needed for z-index to take effect */
+  border-radius: 10px; /* Optional: Rounds the corners of the image */
+  top: 28%;
+}
+.token-details3 {
+  z-index: 3; /* Ensure it's above the background image */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center children on the main axis */
+  align-items: center; /* Center children on the cross axis */
+  height: 100%; /* Take the full height of the parent */
+  position: absolute; /* Position it over the parent */
+  top: 37%;
+  right: 95px;
+  bottom: 0;
+  color: #fff;
+  /* More styles as needed */
+}
+.tokenImage3 {
+  max-width: 100%; /* Ensures the image is responsive and fits its container */
+  max-height: 400px; /* You can set this to the desired maximum height */
+  display: block; /* Removes the default inline behavior, helping with alignment */
+  margin: 25px; /* Centers the image in its container */
+  z-index: 1; /* Ensures the image is above the background but below the overlay text */
+  position: relative; /* Needed for z-index to take effect */
+  border-radius: 10px; /* Optional: Rounds the corners of the image */
+  top: 25%;
+}
+.answer1bis {
+  position: absolute;
+  top: 350px;
+  left: 39px;
+  width: 342.33px;
+  height: 88px;
+}
+.button-itembis {
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-63xl);
+  max-width: 100%;
+  overflow: hidden;
+  height: 35px;
+  z-index: 0;
+  left: 26px;
+}
+.email-grou-childbis {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  border-radius: var(--br-18xl);
+  background-color: var(--color-mediumslateblue);
+  width: 314.11px;
+  height: 34px;
+}
+
+.token-details4 {
+  z-index: 3; /* Ensure it's above the background image */
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center children on the main axis */
+  align-items: center; /* Center children on the cross axis */
+  height: 100%; /* Take the full height of the parent */
+  position: absolute; /* Position it over the parent */
+  top: 43%;
+  right: 75px;
+  bottom: 0;
+  color: #fff;
+  /* More styles as needed */
+}
+.tokenImage4 {
+  max-width: 116%; /* Ensures the image is responsive and fits its container */
+  max-height: 450px; /* You can set this to the desired maximum height */
+  display: block; /* Removes the default inline behavior, helping with alignment */
+  margin: 0px; /* Centers the image in its container */
+  z-index: 1; /* Ensures the image is above the background but below the overlay text */
+  position: relative; /* Needed for z-index to take effect */
+  border-radius: 10px; /* Optional: Rounds the corners of the image */
+  top: 35%;
+}
