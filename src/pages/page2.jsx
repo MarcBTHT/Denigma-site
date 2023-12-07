@@ -26,6 +26,14 @@ function Page2() {
   const [tokenId, setTokenId] = useState('');
   const [betDetails, setBetDetails] = useState(null);
 
+  const top = () => {
+    // Scroll down 1000 pixels when the button is clicked, you can adjust the value as needed
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth', // This adds a smooth scrolling effect
+    });
+};
+
   async function connect() {
     if (typeof window.ethereum !== "undefined") {
       try {
@@ -98,20 +106,172 @@ function Page2() {
   return (
     <>
       <div className={styles['slide-169-3']}>
-        <div className={styles['slide-169-3-child']} />
-        <div className={styles['slide-169-3-item']} />
-        <div className={styles['slide-169-3-inner']} />
-        <b className={styles['lotterie-001']}>Sweepstake #001</b>
-        <h1>Page 2</h1>
-        <Link to="/page3">Page 3</Link>
-        <div className={styles['bottom']}>
-          {/* <Link to="/page3"><div className={styles['admin']} onClick={top}>admin</div></Link> */}
-          <Link to="/page3"><div className={styles['page3']}>Page 3</div></Link>
-          <Link to="/page3">Page 3</Link>
+                <div className={styles['slide-169-3-child']} />
+                <div className={styles['slide-169-3-item']} />
+                <div className={styles['slide-169-3-inner']} />
+                <b className={styles['lotterie-001']}>Sweepstake #001</b>
+                <div className={styles['bottom']}>
+                    <Link to="/"><div className={styles['denigma']} onClick={top}>denigma</div></Link>
+                    <Link to="/page1"><div className={styles['my-account']} onClick={top}>My account</div></Link>
+                    <Link to="/pageAdmin"><div className={styles['admin']} onClick={top}>admin</div></Link>
 
-        </div>
+                    <div className={styles['play-lotterie']}>Sweepstakes</div>
+                    <img className={styles['facebook-icon']} alt="" src={Facebook} />
+                    <img className={styles['twitter-icon']} alt="" src={twitter} />
+                    <img className={styles['group-icon']} alt="" src={LinkedIn} />
+                </div>
+                <div className={styles['enigma']}>
+                    <b className={styles['enigma1']}>Enigma</b>
+                    <div className={styles['i-am-a-container']}>
+                        <span className={styles['i-am-a-container1']}>
+                            {/* ... (Votre contenu JSX pour i-am-a-container1) */}
+                            <p className={styles["i-am-a"]}>I am a digital ledger, secure and true,</p>
+                            <p className={styles["i-am-a"]}>Blocks of data, in a chain I accrue.</p>
+                            <p className={styles["i-am-a"]}>Decentralized and encrypted, what am I?</p>
+                            <p className={styles["i-am-a"]}>A technology that makes transactions fly.</p>
+                        </span>
+                    </div>
+                    <div className={styles['i-am-a-container2']}>
+                        <span className={styles['i-am-a-container1']}>
+                            {/* ... (Votre contenu JSX pour i-am-a-container1) */}
+                            <p className={styles["i-am-a"]}>I am a digital ledger, secure and true,</p>
+                            <p className={styles["i-am-a"]}>Blocks of data, in a chain I accrue.</p>
+                            <p className={styles["i-am-a"]}>Decentralized and encrypted, what am I?</p>
+                            <p className={styles["i-am-a"]}>A technology that makes transactions fly.</p>
+                        </span>
+                    </div>
+                    <div className={styles['answer']}>
+                        <div className={styles['email-grou']}>
+                            <div className={styles['email-grou-child']} />
+                            <input
+                                className={styles['enter-answer']}
+                                placeholder="Enter answer"
+                                type="text"
+                            />
+                        </div>
+                        <button className={styles['vector-parent']}>
+                            <img className={styles['frame-child']} alt="" src={RectangleAnswer} />
+                            <div className={styles['answer1']}>Answer</div>
+                        </button>
+                    </div>
+                    <div className={styles['answer2']}>
+                        <div className={styles['email-grou']}>
+                            <div className={styles['email-grou-child']} />
+                            <input
+                                className={styles['enter-answer']}
+                                placeholder="Enter answer"
+                                type="text"
+                            />
+                        </div>
+                        <button className={styles['vector-parent']}>
+                            <img className={styles['frame-child']} alt="" src={RectangleAnswer} />
+                            <div className={styles['answer1']}>Answer</div>
+                        </button>
+                    </div>
+                    {/* ... (Votre contenu JSX pour numro et numro1) */}
+                    <div className={styles["numro"]}>
+                        <div className={styles["numro-child"]} />
+                        <div className={styles["div"]}>1</div>
+                    </div>
+                    <div className={styles["numro1"]}>
+                        <div className={styles["numro-child"]} />
+                        <div className={styles["div1"]}>2</div>
+                    </div>
+                </div>
+                {/* UI for entering a bet */}
+                <div className={styles['email-grou2']}>
+                    <div className={styles['email-grou-inner']} />
+                    <input className={styles['tokenid']} placeholder="BetID" type="number"
+                        value={betId}
+                        onChange={(e) => setBetId(e.target.value)} />
+                </div>
+                <div className={styles['email-grou3']}>
+                    <div className={styles['email-grou-inner']} />
+                    <input className={styles['tokenid']} placeholder="BetID" type="number"
+                        value={betId}
+                        onChange={(e) => setBetId(e.target.value)} />
+                </div>
+                <div className={styles['email-grou4']}>
+                    <div className={styles['email-grou-inner']} />
+                    <input className={styles['tokenid']} placeholder="TokenId" type="number"
+                        value={tokenId}
+                        onChange={(e) => setTokenId(e.target.value)} />
+                </div>
+                <div className={styles['email-grou5']}>
+                    <div className={styles['email-grou-inner']} />
+                    <input className={styles['tokenid']} placeholder="TkenId" type="number"
+                        value={tokenId}
+                        onChange={(e) => setBetId(e.target.value)} />
+                </div>
 
-      </div>
+                <b className={styles['bets']}>Bets</b>
+                <div className={styles['numro2']}>
+                    <div className={styles['numro-child']} />
+                    <div className={styles['div']}>1</div>
+                </div>
+
+                <div className={styles['btc']}>BTC</div>
+                <div className={styles['line-div']} />
+                <div className={styles['in-1-week']}>45.000$ in 1 week</div>
+                <div className={styles['in-1-week1']}>35.000$ in 1 week</div>
+
+                <button className={styles['button']} onClick={handleButtonClickTrue}>
+                    <img className={styles['button-child']} alt="" src={RectangleBet} />
+                    <b className={styles['bet']}>BET</b>
+                </button>
+                <button className={styles['button2']} onClick={handleButtonClickFalse} >
+                    <img className={styles['button-child']} alt="" src={RectangleBet} />
+                    <b className={styles['bet']}>BET</b>
+                </button>
+
+
+
+                {/* UI for fetching bet details */}
+                <div className={styles['container']}>
+                    <input className={styles['inputbet']}
+                        type="number"
+                        placeholder="Bet ID"
+                        value={betId}
+                        onChange={(e) => setBetId(e.target.value)}
+                    />
+                    <button className={styles['button1']} onClick={() => fetchBetDetails(betId)}>
+                        <img className={styles['button-child']} alt="" src={RectangleBet} />
+                        <b className={styles['bet']}>Details</b>
+                    </button>
+                    {betDetails && (
+                        <div>
+                            <p>Expected Price: ${betDetails.expectedPrice} BTC</p>
+                            <p>Bet Time: {betDetails.betTime}</p>
+                            <p>Settle Time: {betDetails.settleTime}</p>
+                            <p>Participant Token IDs: {betDetails.participantTokenIdList.join(', ')}</p>
+                            <p>Bet State: {betDetails.BetState}</p>
+                        </div>
+                    )}
+                </div>
+
+                <b className={styles['stack-tokens']}>Stack tokens</b>
+                <div className={styles['numro3']}>
+                    <div className={styles['numro-child']} />
+                    <div className={styles['div']}>1</div>
+                </div>
+                <div className={styles['total-stacked']}>total stacked</div>
+                <div className={styles['div4']}>0</div>
+
+                <img
+                    className={styles['unsplashpvoepplw818-icon']}
+                    alt=""
+                    src={billetDroit}
+                />
+                <div className={styles['top']}>
+                    <Link to="/"><div className={styles['denignma']}>Denignma</div></Link>
+                    <Link to="/page1"><div className={styles['my-account1']}>my Account</div></Link>
+
+                    <button className={styles['button3']} onClick={connect}>
+                        <img className={styles['rectangle-icon']} alt="" src={RectangleConnect} />
+                        <b className={styles['connect']}>Connect</b>
+                    </button>
+                </div>
+            </div>
     </>
   )
 }
