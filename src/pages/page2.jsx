@@ -97,8 +97,10 @@ function Page2() {
   }
   return (
     <>
-      <h1>Page 2</h1>
-      <Link to="/page3">Page 3</Link>
+      <div className={styles['slide-169-3']}>
+        <h1>Page 2</h1>
+        <Link to="/page3">Page 3</Link>
+      </div>
     </>
   )
 }
