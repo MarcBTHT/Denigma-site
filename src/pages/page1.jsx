@@ -80,7 +80,7 @@ function Page1() {
     }
 
     //DISPLAY NFT
-    async function fetchTokenURI(tokenId, tokenNumber) {
+    async function fetchTokenURI(tokenId, tokenNumber) { //TokenNumber is temporary, it's just to know which token we are talking about
         const provider = new ethers.providers.Web3Provider(window.ethereum);
         const signer = provider.getSigner();
         const contract = new ethers.Contract(contractAddress, abi, signer);

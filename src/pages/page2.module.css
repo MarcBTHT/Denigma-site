@@ -570,5 +570,39 @@
   position: absolute;
   left : calc(50% - 100px);
 }
+.tokenid_Answer {
+  position: absolute;
+  top: 211px;
+  left: calc(50% - 200px);
+  width: 97px;
+  height: 34px;
+  border: 0;
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  line-height: 31px;
+  text-align: left;
+  display: inline-block;
+  mix-blend-mode: linear-dodge;
+}
+.tokenid_Answer2 {
+  position: absolute;
+  top: 425px;
+  left: calc(50% - 192px);
+  width: 97px;
+  height: 34px;
+  border: 0;
+  font-family: var(--font-roboto);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  line-height: 31px;
+  text-align: left;
+  display: inline-block;
+  mix-blend-mode: linear-dodge;
+}
+.bet-details {
+  position: absolute;
+  margin-top: 40px; 
+  left: calc(50% - 220px);
 
-
+}

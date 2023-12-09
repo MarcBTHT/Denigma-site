@@ -1,4 +1,4 @@
-export const contractAddress = "0xdb05282bd34d2ba4Cf169076e5A3038f46717871";
+export const contractAddress = "0x55367a4eFa994E8fc93cE07aA2DDdd5765F2E3a0";
 export const abi = [
   {
     "inputs": [
@@ -170,6 +170,11 @@ export const abi = [
       }
     ],
     "name": "OwnableUnauthorizedAccount",
+    "type": "error"
+  },
+  {
+    "inputs": [],
+    "name": "dNFT__AnswerEnigmaIncorrect",
     "type": "error"
   },
   {
@@ -1321,6 +1326,24 @@ export const abi = [
       }
     ],
     "name": "updateBetScore",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "tokenId",
+        "type": "uint256"
+      },
+      {
+        "internalType": "bool",
+        "name": "isCorrect",
+        "type": "bool"
+      }
+    ],
+    "name": "updateEnigmaScore",
     "outputs": [],
     "stateMutability": "nonpayable",
     "type": "function"
