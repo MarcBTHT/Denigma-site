@@ -87,7 +87,7 @@
 .bottom {
   position: absolute;
   top: 1698px;
-  left: 351px;
+  left: calc(50% - 518px);
   width: 1092px;
   height: 70px;
   font-size: var(--font-size-3xl);
@@ -107,7 +107,7 @@
 }
 .enigma {
   top: 495px;
-  left: 404px;
+  left: calc(50% - 609px);
 }
 .email-grou-child {
   position: absolute;
@@ -142,7 +142,7 @@
 .email-grou3 {
   position: absolute;
   top: 703px;
-  left: 449px;
+  left: calc(50% - 350px);
   width: 123px;
   height: 34px;
 }
@@ -155,16 +155,16 @@
 .create-bet,
 .email-grou2,
 .email-grou3 {
-  top: 706px;
-  left: 642px;
+  top: 702px;
+  left: calc(50% - 550px);
 }
 .create-bet,
 .email-grou3 {
-  top: 1182px;
+  top: 1179px;
 }
 .create-bet {
   top: 997px;
-  left: 404px;
+  left: calc(50% - 609px);
   line-height: 110%;
   text-transform: capitalize;
   display: inline-block;
@@ -232,7 +232,7 @@
 .unsplashpvoepplw818-icon {
   position: absolute;
   top: 299px;
-  left: 1146px;
+  left: calc(50% + 100px);
   border-radius: 12px;
   width: 347.33px;
   height: 501.33px;

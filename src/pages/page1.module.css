@@ -152,7 +152,7 @@
 .bottom {
   position: absolute;
   top: 2792px;
-  left: 351px;
+  left: calc(50% - 609px);
   width: 1092px;
   height: 70px;
   font-size: var(--font-size-3xl);
@@ -676,14 +676,14 @@
 .answer2 {
   position: absolute;
   top: 2269px;
-  left: 404px;
+  left: calc(50% - 442.17px);
   width: 484.33px;
   height: 169px;
 }
 .cryptocurrency-1-icon {
   position: absolute;
   top: 2046px;
-  left: 889px;
+  left: calc(50% - 042.17px);;
   width: 714px;
   height: 714px;
 }

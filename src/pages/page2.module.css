@@ -26,7 +26,7 @@
 .lotterie-001 {
   position: absolute;
   top: 280px;
-  left: calc(50% - 40%);
+  left: calc(50% - 600px);
   font-size: var(--h1-size);
   line-height: 110%;
   text-transform: capitalize;
@@ -116,7 +116,7 @@
 .enigma1 {
   position: absolute;
   top: 2198px;
-  left: 351px;
+  left: calc(50% - 521px);
   width: 1092px;
   height: 70px;
   text-align: left;
@@ -233,7 +233,7 @@
 .numro-child {
   position: absolute;
   top: 211px;
-  left: 207px;
+  left: calc(50% - 60px);
   width: 291px;
   height: 34px;
 }
@@ -243,7 +243,7 @@
 }
 .numro-child {
   top: 0;
-  left: 0;
+  left: calc(50% - 252px);
   border-radius: 50%;
   background-color: var(--color-darksalmon-100);
   width: 68px;
@@ -251,7 +251,7 @@
 }
 .div {
   top: 20px;
-  left: 30px;
+  left: calc(50% - 222px);
   line-height: 27.5px;
 }
 .div,
@@ -261,26 +261,26 @@
 }
 .numro {
   top: 85px;
-  left: 65px;
+  left: calc(50% - 20px);
   width: 68px;
   height: 68px;
 }
 .div1 {
   top: 20px;
-  left: 28px;
+  left: calc(50% - 222px);
   line-height: 27.5px;
 }
 .enigma,
 .numro1 {
   position: absolute;
   top: 297px;
-  left: 65px;
+  left: calc(50% - 17px);
   width: 68px;
   height: 68px;
 }
 .enigma {
   top: 495px;
-  left: 404px;
+  left: calc(50% - 580px);
   width: 532px;
   height: 457px;
   font-size: var(--font-size-lg);
@@ -316,7 +316,7 @@
 .tokenid {
   position: absolute;
   top: 1108px;
-  left: 1021px;
+  left: calc(50% + 150px);
   width: 97px;
   height: 34px;
 }
@@ -343,7 +343,7 @@
 .email-grou5 {
   position: absolute;
   top: 1108px;
-  left: 1146px;
+  left: calc(50% + 10px);
   width: 97px;
   height: 34px;
 }
@@ -354,7 +354,7 @@
 .stack-tokens {
   position: absolute;
   top: 997px;
-  left: 404px;
+  left: calc(50% - 580px);
   font-size: var(--h2-size);
   line-height: 110%;
   text-transform: capitalize;
@@ -365,27 +365,27 @@
 }
 .stack-tokens {
   top: 1800px;
-  left: 402px;
+  left: calc(50% - 580px);
   width: 327px;
 }
 .numro2,
 .numro3 {
   position: absolute;
   top: 1130px;
-  left: 468px;
+  left: calc(50% - 323px);
   width: 68px;
   height: 68px;
   font-size: var(--font-size-lg);
 }
 .numro3 {
   top: 1914px;
-  left: 469px;
+  left: calc(50% - 300px);
 }
 .btc,
 .total-stacked {
   position: absolute;
   top: 1150px;
-  left: 552px;
+  left: calc(50% - 440px);
   letter-spacing: 0.1em;
   line-height: 27.5px;
   text-transform: uppercase;
@@ -393,12 +393,12 @@
 }
 .total-stacked {
   top: 1934px;
-  left: 554px;
+  left: calc(50% - 400px);
 }
 .line-div {
   position: absolute;
   top: 1110px;
-  left: 668px;
+  left: calc(50% - 350px);
   border-right: 2px solid var(--color-black);
   box-sizing: border-box;
   width: 2px;
@@ -409,7 +409,7 @@
 .in-1-week1 {
   position: absolute;
   top: 1111px;
-  left: 701px;
+  left: calc(50% - 352px);
   line-height: 27.5px;
   display: inline-block;
   width: 318px;
@@ -417,11 +417,11 @@
 .div4,
 .in-1-week1 {
   top: 1934px;
-  left: 913px;
+  left: calc(50% - 152px);
 }
 .in-1-week1 {
   top: 1188px;
-  left: 701px;
+  left: calc(50% - 352px);
 }
 .bet,
 .button-child {
@@ -455,23 +455,23 @@
   background-color: transparent;
   position: absolute;
   top: 1097px;
-  left: calc(900px + 400px);
+  left: calc(50% + 300px);
   width: 183px;
   height: 56px;
 }
 .button1,
 .button2 {
   top: 1281px;
-  left: calc(400px + 200px);
+  left: calc(50% - 450px);
 }
 .button2 {
   top: 1174px;
-  left: calc(900px + 400px);
+  left: calc(50% + 300px);
 }
 .unsplashpvoepplw818-icon {
   position: absolute;
   top: 470px;
-  left: 1060px;
+  left: calc(50% - 50px);
   border-radius: 12px;
   width: 447.33px;
   height: 501.33px;
@@ -568,7 +568,7 @@
 }
 .inputbet {
   position: absolute;
-  left :950px;
+  left : calc(50% - 100px);
 }
 
 
